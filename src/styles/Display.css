@@ -1,0 +1,19 @@
+/* Display.css */
+
+.display {
+    background: rgb(75, 75, 75);
+    height: 120px;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px){
+    .display {
+        height: 80px;
+    }
+
+  }
+@media (min-width: 769px) and (max-width: 1000px) {
+    .display {
+        height: 100px;   
+    }
+  }
